@@ -7,7 +7,7 @@ if(!$_SESSION['login']){
 ?>
 <!DOCTYPE html>
 <html>
-<title>MEMBERS PAGE</title>
+<title>CLUB ADVERTISEMENT</title>
 <meta charset="UTF-8">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
