@@ -33,7 +33,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
   <!-- Header -->
 <?php require('includes/header.php');?>
 <div align="center">
-<p><b>ANNOUNCEMENT</b></p>
+<p><b>ANNOUNCEMENT </b></p>
 </div>
 <div align="center">
 <table width="50%" border="0" cellspacing="0" cellpadding="10">
