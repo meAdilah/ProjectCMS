@@ -65,6 +65,7 @@ Receipt Number:<br />
 
 <script>
 // Script to open and close sidebar
+// comment
 function w3_open() {
     document.getElementById("mySidebar").style.display = "block";
     document.getElementById("myOverlay").style.display = "block";
