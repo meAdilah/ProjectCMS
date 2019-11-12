@@ -15,6 +15,10 @@ if(!$_SESSION['login']){
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="include/style/vendor/datatables/dataTables.bootstrap4.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css">
+   
+<script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
 <style>
 body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
 
@@ -39,7 +43,7 @@ th {
 <div id="piechart" align="center"></div>
 <br/>
 <div align="center">
-<table cellpadding="5" cellspacing="0" border="1" width="75%">
+<table cellpadding="5" cellspacing="0" border="1" width="75%" id="dataTable">
 <br/>
 <tr>
 <td colspan="5" align="center"><b>MEMBERS FEE</b></td>
@@ -196,6 +200,10 @@ function drawChart() {
   ['Donation', <?php echo $totaldonation; ?>],
   ['Expenses Usage', <?php echo $totalusage; ?>],
 ]);
+   
+$(document).ready( function () {
+    $('#dataTable').DataTable();
+} );
 
   // Optional; add a title and set the width and height of the chart
   var options = {'title':'Financial Report', 'width':550, 'height':400};
