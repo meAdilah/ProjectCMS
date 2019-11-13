@@ -43,7 +43,7 @@ th {
 <div id="piechart" align="center"></div>
 <br/>
 <div align="center">
-<table cellpadding="5" cellspacing="0" border="1" width="75%" id="dataTable">
+<table cellpadding="5" cellspacing="0" border="1" width="75%" id="dataTableFee">
 <br/>
 <tr>
 <td colspan="5" align="center"><b>MEMBERS FEE</b></td>
@@ -96,7 +96,7 @@ $totalpayment = $row['totalpayment'];
 
 <br/>
 <div align="center">
-<table cellpadding="5" cellspacing="0" border="1" width="75%">
+<table cellpadding="5" cellspacing="0" border="1" width="75%" id="dataTableDonation">
 <br/>
 <tr>
 <td colspan="5" align="center"><b>FUNDS</b></td>
@@ -202,7 +202,11 @@ function drawChart() {
 ]);
    
 $(document).ready( function () {
-    $('#dataTable').DataTable();
+    $('#dataTableFee').DataTable();
+} );
+   
+$(document).ready( function () {
+    $('#dataTableDonation').DataTable();
 } );
 
   // Optional; add a title and set the width and height of the chart
