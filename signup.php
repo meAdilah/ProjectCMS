@@ -10,7 +10,6 @@ if(isset($_POST['submit'])){
 		$stmt = $db->prepare('SELECT username FROM members WHERE username = :username');
 		$stmt->execute(array(':username' => $_POST['username']));
 		$row = $stmt->fetch(PDO::FETCH_ASSOC);
-
 		if(!empty($row['username'])){
 			$error[] = 'Username provided is already in use.';
 		}
