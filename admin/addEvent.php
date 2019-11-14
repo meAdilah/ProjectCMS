@@ -1,6 +1,7 @@
 <?php
 	require('includes/config.php');
 ?>
+
 <!DOCTYPE html>
 <html>
 <title>HOMEPAGE</title>
