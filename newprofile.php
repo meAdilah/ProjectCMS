@@ -5,7 +5,7 @@ include_once("database/save_to_profile.php");
 ?>
 <!DOCTYPE html>
 <html>
-<title>MEMBERS PAGE</title>
+<title>PROFILE PAGE</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" type="text/css" href="w3css.css">
