@@ -1,6 +1,4 @@
 <?php require('includes/config.php');
-
-
 //if form has been submitted process it
 if(isset($_POST['submit'])){
 
