@@ -7,7 +7,7 @@ if(!$_SESSION['login']){
 ?>
 <!DOCTYPE html>
 <html>
-<title>FINANCIAL REPORT</title>
+<title>FINANCIAL REPORT CLUB</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" type="text/css" href="w3css.css">
