@@ -1,6 +1,4 @@
 <?php require('includes/config.php');
-
-
 //if form has been submitted process it
 if(isset($_POST['submit'])){
 
@@ -44,7 +42,6 @@ if(isset($_POST['submit'])){
 		}
 
 	}
-
 
 	//if no errors have been created carry on
 	if(!isset($error)){
