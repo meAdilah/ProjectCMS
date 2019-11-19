@@ -7,7 +7,6 @@
 <link rel="stylesheet" type="text/css" href="w3css1.css">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
-
 <body class="w3-light-grey w3-content" style="max-width:1600px">
 
 <!-- Sidebar/menu -->
